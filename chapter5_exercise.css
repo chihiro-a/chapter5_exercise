@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-top {
+  text-align: center;
+}
+
+.header-text {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.header-bottom {
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+.nav {
+  text-align: center;
+  /* list-style: none;しなくても●表示されてない… */
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 15px 15px 20px 20px;
+}
+
+.main {
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  /* text-align: center;じゃだめ… */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.box9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad4ff;
+}
+
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  height: 120px;
+  width: 100%;
+  background-color: gray;
+}
+
+.footer-text {
+  text-align: center;
+  /* footer内で指定した方がいい？ */
+  line-height: 120px;
+  /* footer内で指定した方がいい？ */
+  color: white;
+}
